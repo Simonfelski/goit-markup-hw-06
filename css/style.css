@@ -814,8 +814,15 @@ body {
   color: var(--basic-white-color);
   background-color: var(--primary-color);
   border: none;
+  position: relative;
 }
 
 .newsletter-name:hover {
   cursor: pointer;
+}
+
+.newsletter-icon {
+  top: 13px;
+  left: 148px;
+  position: absolute;
 }
