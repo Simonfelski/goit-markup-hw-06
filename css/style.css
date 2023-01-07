@@ -825,4 +825,5 @@ body {
   top: 13px;
   left: 148px;
   position: absolute;
+  fill: var(--basic-white-color);
 }
