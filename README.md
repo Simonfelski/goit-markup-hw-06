@@ -1,1 +1,1 @@
-# goit-markup-hw-06
+https://github.com/Simonfelski/goit-markup-hw-06.git
