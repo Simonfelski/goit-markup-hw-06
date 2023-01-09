@@ -863,6 +863,10 @@ body {
   fill: var(--primary-color);
 }
 
+.form-label:has(.form-input:focus) .form-svg {
+  fill: var(--primary-color);
+}
+
 .form-input {
   padding: 8px;
   font-family: inherit;

@@ -176,6 +176,7 @@
                   <svg width="20px" height="20px" class="sm-icons">
                     <use href="./images/icons.svg#icon-instagram-2" > </use>
                   </svg>
+                </a>
                 <a class="sm-circle" href="#">
                   <svg width="20px" height="20px" class="sm-icons">
                     <use href="./images/icons.svg#icon-twitter-1" > </use>
@@ -212,6 +213,7 @@
                   <svg width="20px" height="20px" class="sm-icons">
                     <use href="./images/icons.svg#icon-instagram-2" > </use>
                   </svg>
+                </a>
                 <a class="sm-circle" href="#">
                   <svg width="20px" height="20px" class="sm-icons">
                     <use href="./images/icons.svg#icon-twitter-1" > </use>
@@ -248,6 +250,7 @@
                   <svg width="20px" height="20px" class="sm-icons">
                     <use href="./images/icons.svg#icon-instagram-2" > </use>
                   </svg>
+                </a>
                 <a class="sm-circle" href="#">
                   <svg width="20px" height="20px" class="sm-icons">
                     <use href="./images/icons.svg#icon-twitter-1" > </use>
@@ -284,6 +287,7 @@
                   <svg width="20px" height="20px" class="sm-icons">
                     <use href="./images/icons.svg#icon-instagram-2" > </use>
                   </svg>
+                </a>
                 <a class="sm-circle" href="#">
                   <svg width="20px" height="20px" class="sm-icons">
                     <use href="./images/icons.svg#icon-twitter-1" > </use>
@@ -394,15 +398,15 @@
         </ul>
       </div>
 
-      <label>
-        <p class="newsletter-sign">zapisz się do newslettera</p>
+      <div>
+        <h2 class="newsletter-sign">zapisz się do newslettera</h2>
         <input type="email" placeholder="E-mail" class="newsletter-email" />
         <button type="submit" class="newsletter-name">Zapisz się
         <svg class="newsletter-icon" width="24" height="24">
           <use href="images/send.svg#icon-icon-send"></use>
         </svg>
       </button>
-      </label>
+    </div>
     </div>
   </footer>
 
@@ -423,6 +427,7 @@
             name="first-name"
             id="user_name"
             class="form-input"
+            required
           />
             <svg class="form-svg" width="18" height="18">
               <use
@@ -432,10 +437,11 @@
           <label for="user_phone" class="form-label"
             >Telefon
             <input
-            type="text"
+            type="text" pattern="[0-9]{9}" 
             name="first-name"
-            id="user_name"
+            id="user_phone"
             class="form-input"
+            required
           />
             <svg class="form-svg" width="18" height="18">
               <use
@@ -447,8 +453,9 @@
             <input
             type="text"
             name="first-name"
-            id="user_name"
+            id="user_email"
             class="form-input"
+            required
           />
             <svg class="form-svg" width="18" height="18">
               <use
@@ -456,7 +463,7 @@
               ></use></svg>
           </label>
          
-          <label class="form-label">Komentarz</label>
+          <label class="form-label"></label>
           <textarea
             name="coment"
             class="form-textarea"
